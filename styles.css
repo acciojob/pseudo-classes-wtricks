@@ -1,1 +1,27 @@
 /*  your css code here. If applicable */
+body {
+	background: rgb(135,206,235);
+}
+
+ul {
+	
+}
+
+ul li {
+	width: 50%;
+	background: gray;
+	padding: 10px;
+}
+
+ul li:nth-child(2n) {
+	background: #fff;
+}
+
+ul li:nth-child(3) {
+	background: pink
+}
+
+ul li:first-child,
+ul li:last-child {
+	font-size: 22px
+}
